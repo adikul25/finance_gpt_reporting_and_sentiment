@@ -50,29 +50,6 @@ Usage Instructions
 3. Select desired financial metrics
 4. Generate and view personalized AI report
 
-Project Directory Structure
---------------------------
-FinGPTfolder/
-├── FastAPI/
-│   ├── requirements.txt
-│   ├── Dockerfile
-│   └── app/
-│       ├── main.py
-│       └── api/
-│           ├── endpoint.py
-│           ├── fetch_info.py
-│           ├── healthcheck.py
-│           ├── llm_endpoint.py
-│           ├── llm_operations.py
-│           ├── models.py
-│           └── router.py
-├── Streamlit/
-│   ├── Dockerfile
-│   ├── main.py
-│   ├── requirements.txt
-│   └── utils.py
-└── docker-compose.yml
-
 Environment Variables
 ----
 Required environment variables:
