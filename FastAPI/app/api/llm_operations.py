@@ -2,7 +2,7 @@ from langchain_google_genai import GoogleGenerativeAI
 
 class FinancialAnalyzer:
     def __init__(self, model="gemini-1.5-flash-8b", temperature=0.2):
-        self.llm = GoogleGenerativeAI(model=model, google_api_key='AIzaSyAfSPDkxNDZq8k0d9fWN66txjxBgGHxcwU', temperature=temperature)
+        self.llm = GoogleGenerativeAI(model=model, google_api_key='', temperature=temperature)
 
     def create_report(self, company_name, financial_data):
         prompt = f"""
